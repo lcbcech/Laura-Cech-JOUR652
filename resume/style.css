@@ -1,16 +1,16 @@
 /*  styles for resume */
-
-BODY{
-font-family: 'Open Sans', Arial, sans-serif;
-color: #444;
-font-size: 1em;
-}
 #container{
   width:100%;
   max-width: 1200px;
   margin: 0 auto;
   padding-bottom: 50px;
 }
+BODY{
+font-family: 'Open Sans', Arial, sans-serif;
+color: #444;
+font-size: 1em;
+}
+
 .description{
   margin-top: 10px;
   margin-bottom: 10px;
