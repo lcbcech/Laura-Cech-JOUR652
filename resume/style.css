@@ -7,6 +7,18 @@ color: #444;
 font-size: 1em;
 }
 
+.description{
+  margin-top: 10px;
+  margin-bottom: 0;
+  margin-left: 0;
+  margin-right:0;
+}
+.menu{
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
 /*  style for name */
 
 #name{
@@ -18,7 +30,6 @@ font-size: 1em;
   width: 60%;
   min-width: 300px;
   margin: 0 auto;
-
 }
 
 /*  style for title */
@@ -30,7 +41,7 @@ strong{
 }
 /*  styles for sections */
 .sectionheader{
-  font-size: 1.5 em;
+  font-size: 1.5em;
   text-transform: uppercase;
   color: white;
   background-color: #33485e;
@@ -46,7 +57,7 @@ strong{
 /*  style for job title */
 .jobtitle{
   font-weight: 600;
-  font-size: 1.5 em;
+  font-size: 1.5em;
 }
 
 /*  styles for job entity */
@@ -65,10 +76,19 @@ strong{
   margin-left: 0;
   margin-right: 0;
 }
+/* style for degrees */
+#degrees{
+  margin: 5px 0px 0px 0px;
+}
 /*  styles for lists */
 
 li{
   font-size: 1em;
+}
+
+menu-li{
+  font-size: 1em;
+  display: inline;
 }
 
 #container{
