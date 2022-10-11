@@ -1,15 +1,19 @@
 /*  styles for resume */
 
-
 BODY{
 font-family: 'Open Sans', Arial, sans-serif;
 color: #444;
 font-size: 1em;
 }
-
+#container{
+  width:100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-bottom: 50px;
+}
 .description{
   margin-top: 10px;
-  margin-bottom: 0;
+  margin-bottom: 10px;
   margin-left: 0;
   margin-right:0;
 }
@@ -94,12 +98,6 @@ menu-li{
   display: inline;
 }
 
-#container{
-  width:100%;
-  max-width: 1200px;
-  margin: 0 auto;
-  padding-bottom: 50px;
-}
 /* style for skills */
 #do{
   margin: 5px 0px 0px 0px;
