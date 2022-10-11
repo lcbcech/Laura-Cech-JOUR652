@@ -83,12 +83,13 @@ font-size: 1em;
   margin-left: 0;
   margin-right: 0;
 }
+
 /* style for degrees */
 #degrees{
   margin: 5px 0px 0px 0px;
 }
-/*  styles for lists */
 
+/*  styles for lists */
 li{
   font-size: 1em;
 }
