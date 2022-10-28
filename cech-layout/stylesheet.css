@@ -7,21 +7,17 @@
 }
 
 
+
 h1{
-  font-family: "Arial", Georgia, sans-serif;
-  font-size: 24px;
+  font-family: Helvetica, sans-serif;
+  font-size: 18px;
 }
 
-h2{
-  font-family: "Times New Roman", Times, serif;
-  font-style: italic;
-  font-size:20px;
-}
 
 
 p {
-    font-family: "Times New Roman", Times, serif;
-    font-size: 18px;
+    font-family: Georgia, serif;
+    font-size: 13px;
 }
 
 blockquote {
@@ -33,4 +29,16 @@ blockquote {
   margin-left: 180px;
   padding-left: 15px;
   border-left: 4px solid #ccc;
+}
+
+
+
+#byline {
+font-family: Helvetica, sans-serif;
+font-size: 14px;
+font-style: italic;
+}
+
+#mast{
+  width: 500px
 }
