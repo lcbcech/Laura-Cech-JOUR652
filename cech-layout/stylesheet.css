@@ -6,10 +6,6 @@
   width: 900px;
 }
 
-#mast {
-  margin: 0 auto;
-  width: 50%;
-}
 
 h1{
   font-family: "Arial", Georgia, sans-serif;
@@ -26,4 +22,15 @@ h2{
 p {
     font-family: "Times New Roman", Times, serif;
     font-size: 18px;
+}
+
+blockquote {
+  font: 20px normal helvetica, sans-serif;
+  font-style: italic;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  color: #442850;
+  margin-left: 180px;
+  padding-left: 15px;
+  border-left: 4px solid #ccc;
 }
