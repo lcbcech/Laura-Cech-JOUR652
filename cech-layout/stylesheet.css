@@ -20,6 +20,16 @@ p {
     font-size: 13px;
 }
 
+ul{
+  font-family: Georgia, serif;
+  font-size: 13px;
+}
+
+li{
+  font-family: Georgia, serif;
+  font-size: 13px;
+}
+
 blockquote {
   font: 20px normal helvetica, sans-serif;
   font-style: italic;
@@ -31,7 +41,13 @@ blockquote {
   border-left: 4px solid #ccc;
 }
 
-
+figcaption {
+  background-color: black;
+  color: white;
+  font-style: italic;
+  padding: 2px;
+  text-align: center;
+}
 
 #byline {
 font-family: Helvetica, sans-serif;
