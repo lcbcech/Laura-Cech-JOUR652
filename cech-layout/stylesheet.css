@@ -1,4 +1,29 @@
+/* midterm styles */
+
+
 #content {
   margin: 0 auto;
   width: 900px;
-} 
+}
+
+#mast {
+  margin: 0 auto;
+  width: 50%;
+}
+
+h1{
+  font-family: "Arial", Georgia, sans-serif;
+  font-size: 24px;
+}
+
+h2{
+  font-family: "Times New Roman", Times, serif;
+  font-style: italic;
+  font-size:20px;
+}
+
+
+p {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 18px;
+}
