@@ -1,0 +1,67 @@
+/* midterm styles */
+
+
+#content {
+  margin: 0 auto;
+  width: 900px;
+}
+
+h1{
+  font-family: Helvetica, sans-serif;
+  font-size: 18px;
+  margin-top: 30px;
+}
+
+p {
+    font-family: Georgia, serif;
+    font-size: 13px;
+}
+
+ul{
+  font-family: Georgia, serif;
+  font-size: 13px;
+}
+
+li{
+  font-family: Georgia, serif;
+  font-size: 13px;
+}
+
+blockquote {
+  font: 20px normal helvetica, sans-serif;
+  font-style: italic;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  color: #442850;
+  margin-left: 180px;
+  padding-left: 15px;
+  border-left: 4px solid #ccc;
+}
+
+img.displayed {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+   }
+
+figcaption {
+  font-style: italic;
+  max-width: 500px;
+  margin-top: 0;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+
+}
+
+#byline {
+font-family: Helvetica, sans-serif;
+font-size: 14px;
+font-style: italic;
+}
+
+#mast {
+  max-width: 100%;
+}
