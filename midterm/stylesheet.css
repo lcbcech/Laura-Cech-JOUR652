@@ -25,7 +25,7 @@ p {
 ul{
   font-family: Helvetica, Arial, sans-serif;
   font-size: 12px;
-  display:inline-block;
+  display:inline-block;s
 }
 
 li{
@@ -66,7 +66,7 @@ figcaption {
 
 #byline {
 font-family: Helvetica, sans-serif;
-font-size: 14px;
+font-size: 11px;
 font-style: italic;
 }
 
