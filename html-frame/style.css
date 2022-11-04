@@ -11,3 +11,8 @@
   text-transform: uppercase;
   text-align: center;
 }
+p{
+  font-family: Georgia, serif;
+  line-height: 180%;
+  font-size: 1em;
+}
