@@ -14,6 +14,15 @@
   text-align: center;
 }
 
+#footer{
+  background-color: black;
+  font-size: 1em;
+  font-color: white;
+  text-align:center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
 p{
   font-family: Georgia, serif;
   line-height: 180%;
@@ -28,7 +37,6 @@ h2{
 figcaption {
   font-style: italic;
   font-size: 12px;
-
   margin-top: 0;
   display: block;
   text-align: center;
@@ -36,10 +44,16 @@ figcaption {
 
 }
 
-
 .center {
   display: block;
   margin-left: auto;
   margin-right: auto;
   width: 50%;
+}
+
+#footer{
+  width=100%;
+  background-color: black;
+  font-size: 1em;
+  color: white;
 }
