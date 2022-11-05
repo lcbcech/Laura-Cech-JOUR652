@@ -1,3 +1,4 @@
+/* laura styles */
 
 #headline{
   font-size: 3em;
@@ -5,14 +6,41 @@
   text-align: center;
   font-family: 'Montserrat', sans-serif;
 }
+
 #byline{
   font-size: 1em;
   font-family: 'Montserrat', sans-serif;
   text-transform: uppercase;
   text-align: center;
 }
+
 p{
   font-family: Georgia, serif;
   line-height: 180%;
   font-size: 1em;
+}
+
+h2{
+  font-size: 2em;
+  font-family: 'Montserrat', sans-serif;
+}
+
+figcaption {
+  font-style: italic;
+  font-size: 12px;
+  max-width: 500px;
+  margin-top: 0;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+
+}
+
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
