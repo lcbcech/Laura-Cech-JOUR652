@@ -1,0 +1,131 @@
+/* laura styles */
+
+#headline{
+  font-size: 3em;
+  font-weight: 700;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  padding-top: 50px;
+}
+
+#byline{
+  font-size: 1em;
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+#hero{
+  font-size: 2.5em;
+  font-family: serif;
+}
+
+
+p{
+  font-family: Georgia, serif;
+  line-height: 180%;
+  font-size: 1em;
+}
+
+h2{
+  font-size: 2em;
+  font-family: 'Montserrat', sans-serif;
+}
+
+figcaption {
+  font-style: italic;
+  font-size: 12px;
+  margin-top: 0;
+  display: block;
+  text-align: center;
+  margin-bottom: 30px;
+
+}
+
+.center {
+  display: block;
+  margin: 0 auto;
+  width: 50%;
+}
+
+
+#footer{
+  width: 100%;
+  background-color: black;
+  font-size: 1em;
+  color: white;
+  text-align:center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+/* this is nav top, top hat */
+
+.nav-top{
+  color: white;
+  margin: 0 auto;
+  text-transform: uppercase;
+  font-weight: 700;
+
+}
+
+/* hero container */
+
+.hero-container{
+position: relative;
+text-align: center;
+color: white;
+}
+
+.hero-image{
+  width: 100%;
+}
+
+.overlay{
+  position: absolute;
+  top:20%;
+  width: 100%;
+  background-color: black;
+  opacity: .7;
+}
+
+.hero-head{
+  font-family: 'Playfair Display', serif;
+  font-size: 6em;
+  color: white;
+  margin: 0 auto;
+}
+
+.hero-subhead{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2em;
+  padding-bottom: 10px;
+}
+
+.quote{
+font-family: 'Montserrat', sans-serif;
+color: #f23030;
+font-size: 3em;
+font-weight: 700;
+text-align: left;
+padding: 15px 0 15px 0;
+border-top: 1px solid #f23030;
+border-bottom: 1px solid #f23030;
+margin-top:20px;
+margin-bottom: 20px;
+}
+
+.quote-attrib{
+  font-size: .5em;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 100;
+  color: black;
+}
+
+
+/* media query */
+@media {max-width:700px}{
+  .hero-head{
+    font-size:1.5em;
+  }
+}
