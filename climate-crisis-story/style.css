@@ -1,5 +1,11 @@
 /* laura styles */
 
+.container{
+    margin-left: 4em;
+    margin-right: 4em;
+
+}
+
 #headline{
   font-size: 3em;
   font-weight: 700;
@@ -105,7 +111,7 @@ color: white;
 .quote{
 font-family: 'Montserrat', sans-serif;
 color: #f23030;
-font-size: 3em;
+font-size: 2em;
 font-weight: 700;
 text-align: left;
 padding: 15px 0 15px 0;
@@ -124,8 +130,11 @@ margin-bottom: 20px;
 
 
 /* media query */
-@media {max-width:700px}{
+@media (max-width:700px){
   .hero-head{
     font-size:1.5em;
+  }
+  .hero-subhead{
+    font-size:1em;
   }
 }
