@@ -27,6 +27,16 @@ p{
   font-size: 1em;
 }
 
+ul{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1em;
+}
+
+li{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1em;
+}
+
 h2{
   font-size: 2em;
   font-family: 'Montserrat', sans-serif;
@@ -95,6 +105,7 @@ color: white;
   font-size: 6em;
   color: white;
   margin: 0 auto;
+  line-height: normal;
 }
 
 .hero-subhead{
@@ -108,11 +119,11 @@ font-family: 'Montserrat', sans-serif;
 color: #f23030;
 font-size: 2em;
 font-weight: 700;
-text-align: left;
+text-align: right;
 padding: 15px 0 15px 0;
 border-top: 1px solid #f23030;
 border-bottom: 1px solid #f23030;
-margin-top:20px;
+margin-top: 20px;
 margin-bottom: 20px;
 }
 
@@ -121,6 +132,40 @@ margin-bottom: 20px;
   font-family: 'Montserrat', sans-serif;
   font-weight: 100;
   color: black;
+  text-align: right;
+}
+
+.example img {
+  width: 100%;
+  position: relative;
+}
+
+.example .overlay {
+  position: absolute;
+  top: 80px;
+  right: 15px;
+  font-weight: bold;
+  text-align: right;
+  font-size: 30px;
+}
+
+/* Container holding the sidebar image and the text */
+
+.sidebar {
+  position: relative;
+  font-size: 1em;
+  color: brightwhite;
+}
+/* sidebar text */
+
+.bottom-right {
+  position: absolute;
+  top: 38px;
+  right: 66px;
+  font-size: 1em;
+  width: 30%;
+  background-color: white;
+
 }
 
 
@@ -132,4 +177,5 @@ margin-bottom: 20px;
   .hero-subhead{
     font-size:1em;
   }
+
 }
