@@ -13,6 +13,7 @@
   font-family: 'Montserrat', sans-serif;
   text-transform: uppercase;
   text-align: center;
+  padding-bottom: 20px;
 }
 
 #hero{
@@ -40,6 +41,7 @@ li{
 h2{
   font-size: 2em;
   font-family: 'Montserrat', sans-serif;
+  padding-top: 25px;
 }
 
 figcaption {
@@ -153,7 +155,7 @@ margin-bottom: 20px;
 
 .sidebar {
   position: relative;
-  font-size: 1em;
+  font-size: .85em;
   color: brightwhite;
 }
 /* sidebar text */
