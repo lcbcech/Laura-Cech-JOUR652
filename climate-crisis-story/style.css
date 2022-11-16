@@ -137,6 +137,11 @@ margin-bottom: 20px;
   text-align: right;
 }
 
+#climate{
+  background-color: #def8ff;
+  padding-top:20px;
+}
+
 .example img {
   width: 100%;
   position: relative;
@@ -167,8 +172,29 @@ margin-bottom: 20px;
   font-size: 1em;
   width: 30%;
   background-color: white;
+  opacity: 80%
 
 }
+.background-img .overlay2{
+    position: absolute;
+    overflow: hidden;
+    top: 0;
+    left: 0;
+}
+
+.background-img .overlay2 {
+    opacity: 1;
+    width: 30%;
+    height: 100%;
+    background-color: rgba(255, 51, 51, 0.5);
+}
+.side-container{position:relative;
+  }
+
+.side-container img{width:100%;
+ display:block;
+ }
+
 
 
 /* media query */
@@ -179,5 +205,16 @@ margin-bottom: 20px;
   .hero-subhead{
     font-size:1em;
   }
+  .sidebar{
+    order: 1;
+     display: flex;
+     width: 100%
+  }
+.bottom-right{
+  font-size:1em;
+  width: 100%;
+  order: 2;
+  display: flex;
+}
 
 }
