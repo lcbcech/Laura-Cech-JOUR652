@@ -1,4 +1,9 @@
 /* laura styles */
+.main{
+  width: 100%;
+
+}
+
 
 #headline{
   font-size: 3em;
@@ -234,7 +239,7 @@ margin-bottom: 40px;
   .sidebar{
     order: 1;
      display: flex;
-     width: 100%
+     width: 100%;
   }
 .bottom-right{
   font-size:1em;
