@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Laura Cech's final project graphics</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+
+  </head>
+  <body>
+    <style>
+     .bi {
+       font-size:3em;
+     }
+
+     .col-md-4 {
+       text-align: center;
+     }
+     .nav-item{
+       text-align: center;
+
+     }
+
+    </style>
+    <!--bootstrap nav starts-->
+    <nav class="navbar navbar-expand-lg bg-dark">
+<span class="nav-top"><span style="color:#FFFFFF;">Data Story</span> : Maryland's General Assembly</span>
+</nav>
+
+
+
+  <!--  <nav class="navbar navbar-expand-lg bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Laura Cech's In-Class Data Assignment</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarScroll">
+          <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                View by type
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#linechart">Linechart</a></li>
+                <li><a class="dropdown-item" href="#barchart">Barchart</a></li>
+                <li><a class="dropdown-item" href="#scatterplot">Scatterplot</a></li>
+                <li><a class="dropdown-item" href="#map">Map</a></li>
+              </ul>
+            </li>
+
+          </ul>
+
+        </div>
+      </div>
+    </nav>-->
+
+<!--bootstrap nav ends-->
+<!--hero start-->
+
+<div class="px-4 py-5 my-5 text-center">
+  <svg xmlns="http://www.w3.org/2000/svg" width="76" height="76" fill="currentColor" class="bi bi-bar-chart" viewBox="0 0 16 16">
+    <path d="M4 11H2v3h2v-3zm5-4H7v7h2V7zm5-5v12h-2V2h2zm-2-1a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h2a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1h-2zM6 7a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v7a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1V7zm-5 4a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v3a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1v-3z"/>
+  </svg>
+  <h1 class="display-5 fw-bold">Laura Cech's Final Project Data</h1>
+
+<!--
+  <div class="col-lg-6 mx-auto">
+    <p class="lead mb-4" style="padding-top:30px">In today's episode, I work with bootstraps.</p>
+    <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+      <button type="button" class="btn btn-primary btn-lg px-4 gap-3">Primary button</button>
+      <button type="button" class="btn btn-outline-secondary btn-lg px-4">Secondary</button>
+    </div>
+  </div>-->
+</div>
+<!--hero end-->
+<div class="container">
+<div class="row">
+  <div class="col-md-8 offset-md-2">
+    <h2 style="text-align:center; color: darkred;">Data shows Maryland General Assembly is becoming more representative of state</h2>
+    <p style="text-align:center"><a href="https://cnsmaryland.org/2021/11/19/data-shows-maryland-general-assembly-is-becoming-more-representative-of-state/">Original article</a></p>
+  	</div>
+    </div>
+
+<div class="row" style="padding-top: 30px;">
+  		<div class="col-md-8 offset-md-2">
+        <div id="barchart">
+      <h2>Barcharts</h2>
+      <iframe title="Percentage of Men and Women in Maryland versus General Assembly " aria-label="Grouped Column Chart" id="datawrapper-chart-O8HNo" src="https://datawrapper.dwcdn.net/O8HNo/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="203" data-external="1"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(e){if(void 0!==e.data["datawrapper-height"]){var t=document.querySelectorAll("iframe");for(var a in e.data["datawrapper-height"])for(var r=0;r<t.length;r++){if(t[r].contentWindow===e.source)t[r].style.height=e.data["datawrapper-height"][a]+"px"}}}))}();
+</script>
+
+      <p>Sources: <a href="https://mgaleg.maryland.gov/pubs-current/current-member-profile.pdf">Department of Legislative Services</a> and <a href="https://data.census.gov/table?tid=ACSDP5Y2020.DP05&g=0400000US24">U.S. Census Bureau</a></p>
+  		</div>
+    </div>
+</div>
+
+<div class="row" style="padding-top: 30px">
+  		<div class="col-md-8 offset-md-2">
+      <div id="scatterplot">
+<iframe title="Percentage of Race in State of Maryland versus General Assembly" aria-label="Grouped Column Chart" id="datawrapper-chart-y5T1S" src="https://datawrapper.dwcdn.net/y5T1S/2/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="400" data-external="1"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(e){if(void 0!==e.data["datawrapper-height"]){var t=document.querySelectorAll("iframe");for(var a in e.data["datawrapper-height"])for(var r=0;r<t.length;r++){if(t[r].contentWindow===e.source)t[r].style.height=e.data["datawrapper-height"][a]+"px"}}}))}();
+</script>
+  		</div>
+    </div>
+</div>
+
+
+<div class="row" style="padding-top: 30px">
+  		<div class="col-md-8 offset-md-2">
+        <div id="map">
+<h2>Highlights of Elected Officials</h2>
+<p>Coming Soon-- trying to troubleshoot timeline Knight Lab tool</p>
+  		</div>
+    </div>
+</div>
+
+
+
+
+
+
+  </div>
+
+
+
+
+
+</div><!--closes container-->
+
+
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js" integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk" crossorigin="anonymous"></script>
+
+  </body>
+</html>
