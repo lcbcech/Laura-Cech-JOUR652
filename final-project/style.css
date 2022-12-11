@@ -6,6 +6,11 @@
 .btn btn-primary btn-lg px-4 me-md-2{
   color: red;
 }
+#question{
+  font-family: sans-serif;
+  font-size: 44px;
+  color: red;
+}
 
 #headline{
   font-size: 3em;
