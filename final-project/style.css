@@ -101,7 +101,7 @@ figure {
 
 figure-2 {
   float: left;
-  width: 45%;
+  width: 55%;
   text-align: left;
   font-style: italic;
   font-size: smaller;
@@ -160,6 +160,20 @@ color: white;
 
 }
 
+.overlay2{
+  position: relative;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  color: white;
+  background-color: black;
+  opacity: 0.8;
+  font-size: 12px;
+  text-align: right;
+
+}
+
+
 .hero-head{
   font-family: 'Montserrat', sans-serif;
   font-size: 4em;
@@ -198,7 +212,6 @@ width: 65%;
   color: black;
   text-align: right;
 }
-
 
 
 /* Container holding the sidebar image and the text */
@@ -280,6 +293,7 @@ width: 65%;
   .hero-subhead{
     font-size:1em;
   }
+
 
 }
 @media (max-width:992px){
