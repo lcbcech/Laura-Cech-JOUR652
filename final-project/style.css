@@ -1,8 +1,13 @@
 /* laura styles */
 .main{
   width: 100%;
-
 }
+
+.resources{
+  width: 100%;
+  background-color: lightgray;
+}
+
 .btn btn-primary btn-lg px-4 me-md-2{
   color: red;
 }
@@ -30,15 +35,23 @@
 }
 
 #hero{
-  font-size: 2.5em;
+  font-size: 2em;
   font-family: serif;
+}
+
+#note{
+  background-color: #ffd200;
+  color: black;
+  text-align: center;
+  margin: 50px 0px 30px 0px;
+
 }
 
 
 p{
   font-family: Georgia, serif;
   line-height: 180%;
-  font-size: 1em;
+  font-size: 1.2em;
 }
 
 ul{
@@ -58,16 +71,45 @@ h2{
   padding-top: 25px;
 }
 
-figcaption {
-  font-style: italic;
+h3{
+  font-size: 1.5em;
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  padding-top: 30px;
+}
+
+
+credit {
   font-size: 12px;
   margin-top: 10px;
-  margin-right: 15px;
+  margin-right: 35px;
   display: block;
   text-align: right;
-  margin-bottom: 30px;
 
 }
+
+figure {
+  float: right;
+  width: 45%;
+  text-align: right;
+  font-style: italic;
+  font-size: smaller;
+  text-indent: 0;
+  margin: 0.5em;
+  padding: 0.5em;
+}
+
+figure-2 {
+  float: left;
+  width: 45%;
+  text-align: left;
+  font-style: italic;
+  font-size: smaller;
+  text-indent: 0;
+  margin: 0.5em;
+  padding: 0.5em 0.8em 0.5em 0em;
+}
+
 
 .center {
   display: block;
@@ -99,8 +141,6 @@ figcaption {
 
 
 
-
-
 /* hero container */
 
 .hero-container{
@@ -115,10 +155,9 @@ color: white;
 
 .overlay{
   position: absolute;
-  top:20%;
-  width: 60%;
-  background-color: #ffd200;
-  opacity: .9;
+  top:40%;
+  width: 55%;
+
 }
 
 .hero-head{
@@ -127,10 +166,12 @@ color: white;
   color: white;
   text-align: left;
   text-transform: uppercase;
-  margin: 40px 30px 30px 40px;
+  top: 50%;
   line-height: normal;
   transition-timing-function: ease;
   padding-bottom: 30px;
+  padding-left: 50px;
+
 }
 
 .hero-subhead{
@@ -144,40 +185,21 @@ font-family: 'Montserrat', sans-serif;
 color: #f23030;
 font-size: 2em;
 font-weight: 700;
-text-align: right;
-padding: 15px 0 15px 0;
-border-top: 1px solid #f23030;
-border-bottom: 1px solid #f23030;
+float: right;
 margin-top: 40px;
-margin-bottom: 40px;
+margin-bottom: 80px;
+width: 65%;
 }
 
 .quote-attrib{
-  font-size: .5em;
+  font-size: .7em;
   font-family: 'Montserrat', sans-serif;
   font-weight: 100;
   color: black;
   text-align: right;
 }
 
-#climate{
-  background-color: #def8ff;
-  padding-top:20px;
-}
 
-.example img {
-  width: 100%;
-  position: relative;
-}
-
-.example .overlay {
-  position: absolute;
-  top: 80px;
-  right: 15px;
-  font-weight: bold;
-  text-align: right;
-  font-size: 30px;
-}
 
 /* Container holding the sidebar image and the text */
 
@@ -225,12 +247,12 @@ margin-bottom: 40px;
 
  /* visited link */
  a:visited {
-   color: black;
+   color: red;
  }
 
  /* mouse over link */
  a:hover {
-   color: red;
+   color: black;
  }
 
  /* selected link */
@@ -243,6 +265,13 @@ margin-bottom: 40px;
   padding-bottom: 35px;
 }
 
+.figure {
+  float: right;
+  margin: 10px 10px 10px 0;
+}
+
+
+
 /* media query */
 @media (max-width:700px){
   .hero-head{
@@ -251,16 +280,24 @@ margin-bottom: 40px;
   .hero-subhead{
     font-size:1em;
   }
-  .sidebar{
-    order: 1;
-     display: flex;
-     width: 100%;
-  }
-.bottom-right{
-  font-size:1em;
-  width: 100%;
-  order: 2;
-  display: flex;
+
 }
+@media (max-width:992px){
+  .hero-head{
+    font-size:1.5em;
+  }
+  .hero-subhead{
+    font-size:1em;
+  }
+
+}
+
+@media (max-width:600px){
+  .hero-head{
+    font-size:1.5em;
+  }
+  .hero-subhead{
+    font-size:1em;
+  }
 
 }
