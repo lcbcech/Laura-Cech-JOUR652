@@ -300,9 +300,13 @@ width: 65%;
   .hero-subhead{
     font-size:1em;
   }
-
-
+.overlay{
+  position: absolute;
+  top:20%;
+  width: 65%;
 }
+}
+
 @media (max-width:992px){
   .hero-head{
     font-size:1.5em;
@@ -310,7 +314,11 @@ width: 65%;
   .hero-subhead{
     font-size:1em;
   }
-
+  .overlay{
+    position: absolute;
+    top:50%;
+    width: 65%;
+  }
 }
 
 @media (max-width:600px){
@@ -320,5 +328,9 @@ width: 65%;
   .hero-subhead{
     font-size:1em;
   }
-
+  .overlay{
+    position: absolute;
+    top:20%;
+    width: 65%;
+  }
 }
